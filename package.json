@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@splidejs/react-splide": "^0.7.12",
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "classnames": "^2.5.1",
     "next": "14.2.5",
     "react": "^18",

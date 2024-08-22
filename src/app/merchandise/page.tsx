@@ -1,10 +1,12 @@
-import Merchandie from '@/components/Merchandise/Merchandise'
+import Items from '@/components/Merchandise/Items'
+import MerchandiseHero from '@/components/Merchandise/MerchandiseHero'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
-      <Merchandie/>
+      <MerchandiseHero/>
+      <Items/>
     </div>
   )
 }

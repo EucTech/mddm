@@ -4,6 +4,8 @@ import MakingTheDevil from "@/components/HomePage/MakingTheDevil";
 import Mission from "@/components/HomePage/Mission";
 import OurPrograms from "@/components/HomePage/OurPrograms";
 import PartnerWithUs from "@/components/HomePage/PartnerWithUs";
+import Support from "@/components/HomePage/Support";
+import Testimonies from "@/components/HomePage/Testimonies";
 import WhatWeDo from "@/components/HomePage/WhatWeDo";
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
       <AboutUs/>
       <PartnerWithUs/>
       <MakingTheDevil/>
+      <Testimonies/>
+      <Support/>
     </div>
   );
 }

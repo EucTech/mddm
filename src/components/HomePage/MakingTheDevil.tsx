@@ -8,9 +8,11 @@ const MakingTheDevil = () => {
     <div
       className={`${montserrat.className} flex md:flex-row flex-col w-full bg-[#FFE3E4] relative items-center gap-20 px-[30px] md:px-[100px] lg:px-[200px] xl:px-[250px] py-16`}
     >
-      <img
+      <Image
         src="/image4.svg"
         alt=""
+        width={500}
+        height={500}
         className=" absolute top-0 left-0 w-[100px] lg:w-[200px] xl:w-[300px]"
       />
 
@@ -38,17 +40,21 @@ const MakingTheDevil = () => {
             <span className="text-[#6C0003] font-semibold text-[15px]">
               Get Started
             </span>
-            <img
+            <Image
               src="/right-icon.png"
               alt="right icon"
+              width={500}
+              height={500}
               className=" w-[38px] absolute top-0 right-[-20px]"
             />
           </button>
         </Link>
       </div>
-      <img
+      <Image
         src="/image3.png"
         alt="side frame"
+        width={500}
+        height={500}
         className=" absolute bottom-0 right-0 w-[100px] lg:w-[200px]"
       />
     </div>
